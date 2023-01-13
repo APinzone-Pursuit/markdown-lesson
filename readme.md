@@ -151,10 +151,10 @@ Check off each step as you complete it and [refer back to the reading](https://d
 - [x] Create a level 4 heading called "Getting ready on your local machine"
 - [x] Copy the above section from the GitHub reading and highlight the code snippets where necessary.
 - [x] Create a level 4 heading called "Creating a new repository"
-- [ ] Create a list detailing how to create a repository on GitHub (use the GitHub reading)
-- [ ] Create a level 3 heading called "Push your code"
-- [ ] Copy the "Push Your Code" section from the GitHub reading and format it the same way.
-- [ ] Create a level 3 heading called "Collaborating with GitHub"
+- [x] Create a list detailing how to create a repository on GitHub (use the GitHub reading)
+- [x] Create a level 3 heading called "Push your code"
+- [x] Copy the "Push Your Code" section from the GitHub reading and format it the same way.
+- [x] Create a level 3 heading called "Collaborating with GitHub"
 - [ ] Create a step by step task list for the collaboration process. Include the following:
     - Forking
     - Cloning
@@ -187,6 +187,37 @@ You can always check if your directory is a git repository and has a single comm
     - At the bottom of the screen, it gives you the option to initialize your repository with some files. You will have already initialized your repository on your local machine, so you do not need to check these boxes.
 4. After clicking the "Create repository" button, you will be brought to a new page that includes a number of code blocks.
     - If you have already created a repository, you'll be following the instructions under the heading "...or push an existing repository from the command line."
+### Push Your Code
+There are three commands that are run to connect your local repository to your remote repository. Typically, you can copy and paste these commands directly into your terminal. However, it's important to generally understand what each command is doing.
+
+`git remote add origin <url>`
+
+When you run this command inside of your local git repository, this command connects your local repository with your remote repository.
+
+As you can see by reading the command, a new "remote" is added at the given URL. The name "origin" is just that -- a name for the remote. This name could be whatever you want, but you can just leave it as origin.
+
+`git branch -M main`
+
+This command sets the name of the main "branch" to be called `main`. You will learn more about branches later on. For now, know that the `main` branch is where your commit history will live. Your local repository also has a `main` branch -- these two branches will be connected.
+
+`git push -u origin main`
+
+The `git push` command moves all of the commits from your local repository to your remote repository. This is the command that gets the two synchronized.
+
+The `-u` flag sets the "upstream" default for this branch to always be the remote with a name of "origin" and the branch with the name of "main."
+
+Because of the `-u` flag, moving forward you can just write `git push` from your local `main` branch and git will know that you want to push to the `main` branch of the remote repository by the name of "origin".
+### Collaborating with GitHub
+1. To collaborate with someone GitHub, you will need their link to their GitHub repository.
+2. From that link, it will have you make a copy of their repository for your own editing purposes. You will need to make a name for it.
+3. After name it, you will need to click on the Code button and it will give you a url for your repository.
+4. Open a terminal and `cd` into the folder that you will like to have your repository saved. It is best practice to not create the folder in a folder that is already intialized via `git init`.
+5. Run the command `git clone <url>`. This will download all of the files in your repository onto your computer.
+6. While inside of the folder you can use `code .` to open the folder into Visual Studio Code. Proceed to make any changes that you will like to your code. 
+7. Upon make changes, after saving the changes you will want to commit the changes. It is a two step process to commit your changes. You will want to stage your changes first by running `git add .` and then you will need to run `git commit -m "(Message pertaining to changes)"`
+8. After the changes are made locally and commited you will need to push them to the GitHub repository. To do so you will run `git push`.
+9. Go to your GitHub repository and you can then create a Pull request for the original creator of the repository to update their repo with your changes.
+
 <!-- End of Section 4 -->
 
 ---
