@@ -16,7 +16,7 @@ Check off each step as you complete it and [refer back to the reading](https://d
 ---
 
 <!-- Start of Section 1 -->
-##Collaborative Programming
+## Collaborative Programming
 [What is pair programming?](https://github.com/9-5-pursuit/unit-fundamentals/tree/main/collaborative-programming)
 ```
 /**
@@ -25,7 +25,7 @@ Check off each step as you complete it and [refer back to the reading](https://d
  * @returns {string} The name of the first person in line.
  */
 ```
-###Pair Programming at Pursuit
+### Pair Programming at Pursuit
 **1. Keep track of changes made by other developers** 
 **2. Pair programming is very common in the workplace**
 **3. Ability to make changes and not have them "live" until approved"**
