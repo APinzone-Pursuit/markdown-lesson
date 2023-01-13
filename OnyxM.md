@@ -286,6 +286,7 @@ Below is a step by step task list on how the collaboration process works on GitH
 3. I am looking forward to learning how to create my own website and create stunning data visualizations. 
 
 #### **Personal To-do list**
+
 - [ ] Get plenty of sleep (Probably slept an average of 3 hours a night).
 - [ ] Complete self care routine.
 - [ ] Go outside and get sunshine.
