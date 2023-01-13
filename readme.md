@@ -63,14 +63,14 @@ Check off each step as you complete it and [refer back to the reading](https://d
 * Terminal
 * Shell
 * Folder = directory
-* pwd - print working directory
-* cd .. - go to parent directory (aka up)
-* cd [folder] - go into folder
-* ~ - represents your home folder
-* ls - list files and subfolders in current folder
-* touch [filename] - create a new file
-* mkdir [directory name] - make a new directory
-* code [filename] - open the VSCode editor
+* `pwd` - print working directory
+* `cd ..` - go to parent directory (aka up)
+* `cd [folder]` - go into folder
+* `~`- represents your home folder
+* `ls` - list files and subfolders in current folder
+* `touch [filename]` - create a new file
+* `mkdir [directory name]` - make a new directory
+* `code [filename]` - open the VSCode editor
 <!-- End of Section 2 -->
 
 ---
