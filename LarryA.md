@@ -18,7 +18,7 @@ Check off each step as you complete it and [refer back to the reading](https://d
 <!-- Start of Section 1 -->
 ## "Collaborative Programming" 
 
-[What is pair programming] (https://github.com/9-5-pursuit/unit-fundamentals/tree/main/collaborative-programming)
+[What is pair programming](https://github.com/9-5-pursuit/unit-fundamentals/tree/main/collaborative-programming)
 
 ```js
 /**
@@ -70,7 +70,7 @@ function foo(str) {
 <!-- Start of Section 2 -->
 ## "Intro to the Command Line" 
 
-[What is the terminal] (https://github.com/9-5-pursuit/unit-fundamentals/blob/main/intro-to-command-line/readme.md)
+[What is the terminal](https://github.com/9-5-pursuit/unit-fundamentals/blob/main/intro-to-command-line/readme.md)
 
 ### "Keywords" 
 
@@ -151,7 +151,7 @@ open .
 <!-- Start of Section 3 -->
 ## "Git" 
 
-[Git, What is it good for?] (https://github.com/9-5-pursuit/unit-fundamentals/blob/main/git/readme.md)
+[Git, What is it good for?](https://github.com/9-5-pursuit/unit-fundamentals/blob/main/git/readme.md)
 
 ```bash
 
@@ -333,7 +333,7 @@ Creating a psychologically safe environment: Encourage the group to share constr
 
 ## My Time at Pursuit
 
-![My mental state] (https://industrywired.b-cdn.net/wp-content/uploads/2022/04/Top-10-Animes-that-Encourage-to-Coding-Skills.jpg)
+![My mental state](https://industrywired.b-cdn.net/wp-content/uploads/2022/04/Top-10-Animes-that-Encourage-to-Coding-Skills.jpg)
 
 ### The Journey so far
 
