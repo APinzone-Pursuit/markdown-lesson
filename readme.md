@@ -40,7 +40,7 @@ Check off each step as you complete it and [refer back to the reading](https://d
 - [x] Add a level 3 heading called "Keywords"
 - [x] Re-create the list of keywords from the intro to command line reading, making sure to mark all code keywords as the reading did.
 - [x] Add a level 3 heading called "Examples"
-- [ ] Create a bash code block containing the following examples, each example should have a code comment above it describing what it's doing:
+- [x] Create a bash code block containing the following examples, each example should have a code comment above it describing what it's doing:
     - Check your current file path
     - List the files and folders in your current directory
     - Make a directory
@@ -49,8 +49,8 @@ Check off each step as you complete it and [refer back to the reading](https://d
     - Move up one directory
     - Open a directory in Visual Studio Code
     - Open a directory in Finder
-- [ ] Add a level 3 heading called "Tips"
-- [ ] Recreate the tips section from the intro to command line reading
+- [x] Add a level 3 heading called "Tips"
+- [x] Recreate the tips section from the intro to command line reading
 ---
 
 <!-- Start of Section 2 -->
@@ -74,15 +74,28 @@ Check off each step as you complete it and [refer back to the reading](https://d
 ### Examples
 ```
     - Check your current file path
+   pwd
+    /Users/devinlewis/Sites/markdown-practice
     - List the files and folders in your current directory
+    ls
+    readme.md
     - Make a directory
+    mkdir new-directory
     - Navigate to that directory
+    cd new-directory
     - Create a file within that directory
+    touch newtext.txt
     - Move up one directory
+    cd ..
     - Open a directory in Visual Studio Code
+    code .
     - Open a directory in Finder
-- [ ] Add a level 3 heading called "Tips"
+    open .
 ```
+### Tips
+- Use tab to autocomplete. for example, if the current folder has subfolders titled `games`, `photos` and `photography`, typing `pho` and pressing the tab key will result in displaying `photo` and `photography`. If we then type the letter `g` to get `photog`,and press the tab key - the command will be autocomplete to `photography`.
+
+- You can also use the up and down arrow keys to cycle through all the commands you've typed.
 <!-- End of Section 2 -->
 
 ---
