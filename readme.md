@@ -1,6 +1,6 @@
 # Writing in Markdown
 
-Below you'll find several sections with instructions. Inbetween the two comment tags marked "Start of Section #" and "End of Section #" complete the instructions for that section.
+Below you'll find several sections with instructions. In between the two comment tags marked "Start of Section #" and "End of Section #" complete the instructions for that section.
 
 Check off each step as you complete it and [refer back to the reading](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) often to assist!
 
