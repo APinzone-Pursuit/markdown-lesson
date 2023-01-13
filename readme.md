@@ -150,7 +150,7 @@ Check off each step as you complete it and [refer back to the reading](https://d
 - [x] Describe, in your own words, what the difference between a local repo and remote repo is. 
 - [x] Create a level 4 heading called "Getting ready on your local machine"
 - [x] Copy the above section from the GitHub reading and highlight the code snippets where necessary.
-- [ ] Create a level 4 heading called "Creating a new repository"
+- [x] Create a level 4 heading called "Creating a new repository"
 - [ ] Create a list detailing how to create a repository on GitHub (use the GitHub reading)
 - [ ] Create a level 3 heading called "Push your code"
 - [ ] Copy the "Push Your Code" section from the GitHub reading and format it the same way.
@@ -179,6 +179,14 @@ Before creating a remote repository on GitHub, you'll need a local repository wi
 * Stage and commit files, with `git add` and `git commit`.
 
 You can always check if your directory is a git repository and has a single commit by running `git log`.
+#### Creating a new repository
+1. To create a repository on GitHub you will need to first go to github.com
+2. Click the green New button to get the process started.
+    - Alternatively, you can click the "+" button in the top-right corner of any GitHub page. You will then be brought to a page where you can name your repository.
+3. Give your repository a name that is meaningful as opposed to the nonsense names GitHub typically suggests, like "curly-rotary-phone."
+    - At the bottom of the screen, it gives you the option to initialize your repository with some files. You will have already initialized your repository on your local machine, so you do not need to check these boxes.
+4. After clicking the "Create repository" button, you will be brought to a new page that includes a number of code blocks.
+    - If you have already created a repository, you'll be following the instructions under the heading "...or push an existing repository from the command line."
 <!-- End of Section 4 -->
 
 ---
