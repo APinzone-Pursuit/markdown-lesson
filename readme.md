@@ -18,7 +18,7 @@ Check off each step as you complete it and [refer back to the reading](https://d
 <!-- Start of Section 1 -->
 ## Collaborative Programming
 [What is pair programming?](https://github.com/9-5-pursuit/unit-fundamentals/tree/main/collaborative-programming)
-```
+```js
 /**
  * Returns the first name in the array.
  * @param {string[]} line - An array of names.
@@ -72,7 +72,7 @@ Check off each step as you complete it and [refer back to the reading](https://d
 * `mkdir [directory name]` - make a new directory
 * `code [filename]` - open the VSCode editor
 ### Examples
-```
+```bash
    <!-- Check your current file path  -->
     pwd
    <!-- List the files and folders in your current directory  -->
@@ -108,7 +108,7 @@ Check off each step as you complete it and [refer back to the reading](https://d
     - Create a readme.md file
     - Check the status of the repo
     - Stage the readme.md file
-- [ ] Put together instructions, utilizing code blocks when necessary, describing the following steps:
+- [x] Put together instructions, utilizing code blocks when necessary, describing the following steps:
     - Open the directory you created previously in Visual Studio Code
     - Update the readme.md file
     - Compare the differences between the staged and unstaged readme.md files
@@ -119,18 +119,18 @@ Check off each step as you complete it and [refer back to the reading](https://d
 <!-- Start of Section 3 -->
 ## Git
 [Git, what is it good for?](https://docs.google.com/presentation/d/1KSqHQw8DxaZTtGQn5VKjP_Ljv4H_zc2hfE1CEVH8M8o/edit?usp=sharing)
-```
-    <!-- Make a directory -->
+```bash
+    #Make a directory
     mkdir new-git-directory
-    <!-- Navigate to that directory -->
+    #Navigate to that directory
     cd new-git-directory
-    <!-- Initialize a Git Repo -->
+    #Initialize a Git Repo
     git init
-    <!-- Create a readme.md file -->
+    #Create a readme.md file
     touch readme.md
-    <!-- Check the status of the repo -->
+    #Check the status of the repo
     git status
-    <!-- Stage the readme.md file -->
+    #Stage the readme.md file
     git add readme.md
 ```
 1. Open the directory you created previously in Visual Studio Code `cd new-get-directory`
