@@ -210,7 +210,7 @@ First things first, we need to be able to distinguish the differences between Lo
 
 
 #### **Getting ready on your local machine**
-Before creating a remote repository on GitHub, you'll need a local repository with at least a single commit. That means you'll need to:
+Before creating a remote repository on GitHub, you will need a local repository with at least a single commit. That means you'll need to:
 
 * Create a new directory with at least one file.
 * Initialize that directory as a git repository with `git init`.
