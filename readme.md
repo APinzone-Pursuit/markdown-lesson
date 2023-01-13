@@ -263,18 +263,39 @@ Below is a step by step task list on how the collaboration process works on GitH
 ---
 
 #### Section 5 Instructions
-- [ ] Add a level 2 heading called "My Time at Pursuit"
-- [ ] Add an image that represents your time in the program so far.
-- [ ] Add a list with the following 3 things:
+- [x ] Add a level 2 heading called "My Time at Pursuit"
+- [x ] Add an image that represents your time in the program so far.
+- [x ] Add a list with the following 3 things:
     - One thing you need to work on
     - One thing you feel you understand well
     - One thing you are looking forward to learning
-- [ ] Create a to-do list for your long weekend
-- [ ] Add a quote that keeps you motivated to keep pushing.
-- [ ] Add a paragraph of bold text describing who you're doing this program for and why.
+- [x ] Create a to-do list for your long weekend
+- [x ] Add a quote that keeps you motivated to keep pushing.
+- [x ] Add a paragraph of bold text describing who you're doing this program for and why.
 ---
 
 <!-- Start of Section 5 -->
+## My time at Pursuit 
+
+![Dog Plush in Earthquake](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F831547518674481320%2F&psig=AOvVaw3NS69Nj8QTcW1gs0puVkLl&ust=1673720113314000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCJi_j7-TxfwCFQAAAAAdAAAAABAK)
+
+1. A weakness that I need to refine would be problem solving and tackling problems at various angles, reading through the problems and fully understanding the context.
+
+2. Something that I feel I understand well are multiple topics in JavaScript such as Functions, Conditionals and Arrays. 
+
+3. I am looking forward to learning how to create my own website and create stunning data visualizations. 
+
+#### **Personal To-do list**
+- [ ] Get plenty of sleep (Probably slept an average of 3 hours a night).
+- [ ] Complete self care routine.
+- [ ] Go outside and get sunshine.
+- [ ] Catch up on any topics with shaky understanding.
+
+> # The pay is good and I can walk to work. 
+> #### -John F. Kennedy
+
+
+**I am doing this program not for myself, but for those around me who invested their time and effort in believing that I can be successful, I owe my hard work and dedication to those who lifted me up and supported me through tough times, without them I wouldn't be who I am today and for that, I am grateful.**
 
 <!-- End of Section 5 -->
 
