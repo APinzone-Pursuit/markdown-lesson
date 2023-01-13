@@ -7,24 +7,37 @@ Check off each step as you complete it and [refer back to the reading](https://d
 ---
 
 #### Section 1 Instructions
-- [ ] Add a level 2 heading called "Collaborative Programming"
-- [ ] Add a link to the collaborative programming reading, the link should say "What is pair programming?" 
-- [ ] Add a JavaScript code block that contains a jsdoc comment. Take one from a previous replit, use the one from the reading, or create a new one. 
-- [ ] Add a level 3 heading called "Pair Programming at Pursuit"
-- [ ] Make an ordered list of the reasons Pursuit wants you to pair program. This list should be bold.
+- [x] Add a level 2 heading called "Collaborative Programming"
+- [x] Add a link to the collaborative programming reading, the link should say "What is pair programming?" 
+- [x] Add a JavaScript code block that contains a jsdoc comment. Take one from a previous replit, use the one from the reading, or create a new one. 
+- [x] Add a level 3 heading called "Pair Programming at Pursuit"
+- [x] Make an ordered list of the reasons Pursuit wants you to pair program. This list should be bold.
 
 ---
 
 <!-- Start of Section 1 -->
-
+##Collaborative Programming
+[What is pair programming?](https://github.com/9-5-pursuit/unit-fundamentals/tree/main/collaborative-programming)
+```
+/**
+ * Returns the first name in the array.
+ * @param {string[]} line - An array of names.
+ * @returns {string} The name of the first person in line.
+ */
+```
+###Pair Programming at Pursuit
+**1. Keep track of changes made by other developers** 
+**2. Pair programming is very common in the workplace**
+**3. Ability to make changes and not have them "live" until approved"**
+**4. Ability to organize work done on a project**
 <!-- End of Section 1 -->
 
 ---
 
 #### Section 2 Instructions
-- [ ] Add a level 2 heading called "Intro to the Command Line"
-- [ ] Add a link to the intro to command line reading, the link should say "What is the terminal?" 
-- [ ] Add a level 3 heading called "Keywords"
+- [x] Add a level 2 heading called "Intro to the Command Line"
+- [x] Add a link to the intro to command line reading, the link should say "What is the terminal?" 
+- [x] Add a level 3 heading called "Keywords"
 - [ ] Re-create the list of keywords from the intro to command line reading, making sure to mark all code keywords as the reading did.
 - [ ] Add a level 3 heading called "Examples"
 - [ ] Create a bash code block containing the following examples, each example should have a code comment above it describing what it's doing:
@@ -41,7 +54,23 @@ Check off each step as you complete it and [refer back to the reading](https://d
 ---
 
 <!-- Start of Section 2 -->
-
+## Intro to the Command Line
+[What is the terminal?](https://github.com/9-5-pursuit/unit-fundamentals/tree/main/intro-to-command-line)
+### Keywords
+* Operating System (OS)
+* Graphical User Interface (GUI)
+* Command Line Interface (CLI)
+* Terminal
+* Shell
+* Folder = directory
+* pwd - print working directory
+* cd .. - go to parent directory (aka up)
+* cd [folder] - go into folder
+* ~ - represents your home folder
+* ls - list files and subfolders in current folder
+* touch [filename] - create a new file
+* mkdir [directory name] - make a new directory
+* code [filename] - open the VSCode editor
 <!-- End of Section 2 -->
 
 ---
