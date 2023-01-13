@@ -236,7 +236,7 @@ Because of the `-u` flag, moving forward you can just write `git push` from your
 
 <!-- Start of Section 5 -->
 ## My Time at Pursuit
-(https://images.squarespace-cdn.com/content/v1/5ea906bfb2891a7f00d30604/1591593368495-WTN6Z0NU1GKJ9N2PO90B/Pursuit%2BLogo%2BBlack.png)
+![This has been my pursuit :laughing:](https://images.squarespace-cdn.com/content/v1/5ea906bfb2891a7f00d30604/1591593368495-WTN6Z0NU1GKJ9N2PO90B/Pursuit%2BLogo%2BBlack.png)
 * Reading the readme files THROUGHLY, I understand the task but I sometimes bypass important details.
 * Programming and command line
 * More programming languages
