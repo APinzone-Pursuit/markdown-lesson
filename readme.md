@@ -155,7 +155,7 @@ Check off each step as you complete it and [refer back to the reading](https://d
 - [x] Create a level 3 heading called "Push your code"
 - [x] Copy the "Push Your Code" section from the GitHub reading and format it the same way.
 - [x] Create a level 3 heading called "Collaborating with GitHub"
-- [ ] Create a step by step task list for the collaboration process. Include the following:
+- [x] Create a step by step task list for the collaboration process. Include the following:
     - Forking
     - Cloning
     - Making Changes
@@ -223,18 +223,28 @@ Because of the `-u` flag, moving forward you can just write `git push` from your
 ---
 
 #### Section 5 Instructions
-- [ ] Add a level 2 heading called "My Time at Pursuit"
-- [ ] Add an image that represents your time in the program so far.
-- [ ] Add a list with the following 3 things:
+- [x] Add a level 2 heading called "My Time at Pursuit"
+- [x] Add an image that represents your time in the program so far.
+- [x] Add a list with the following 3 things:
     - One thing you need to work on
     - One thing you feel you understand well
     - One thing you are looking forward to learning
-- [ ] Create a to-do list for your long weekend
-- [ ] Add a quote that keeps you motivated to keep pushing.
-- [ ] Add a paragraph of bold text describing who you're doing this program for and why.
+- [x] Create a to-do list for your long weekend
+- [x] Add a quote that keeps you motivated to keep pushing.
+- [x] Add a paragraph of bold text describing who you're doing this program for and why.
 ---
 
 <!-- Start of Section 5 -->
+## My Time at Pursuit
+(https://images.squarespace-cdn.com/content/v1/5ea906bfb2891a7f00d30604/1591593368495-WTN6Z0NU1GKJ9N2PO90B/Pursuit%2BLogo%2BBlack.png)
+* Reading the readme files THROUGHLY, I understand the task but I sometimes bypass important details.
+* Programming and command line
+* More programming languages
+## To-Do list
+* Read upcoming reading for next class.
+## Motivation
+"Dare to be different today, to be extraordinary tomorrow"
+**I am doing this program for myself, my wife, and our future. I have a history in the programming field but I've been longing to get back into and this opportunity presented its self at a time in my life where I actually have time to fully commit to it. My pursuit path has been a rollercoaster but through the support of my friends, my wife, and my class mates its getting there!**
 
 <!-- End of Section 5 -->
 
