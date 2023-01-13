@@ -7,15 +7,39 @@ Check off each step as you complete it and [refer back to the reading](https://d
 ---
 
 #### Section 1 Instructions
-- [ ] Add a level 2 heading called "Collaborative Programming"
-- [ ] Add a link to the collaborative programming reading, the link should say "What is pair programming?" 
-- [ ] Add a JavaScript code block that contains a jsdoc comment. Take one from a previous replit, use the one from the reading, or create a new one. 
-- [ ] Add a level 3 heading called "Pair Programming at Pursuit"
+- [x ] Add a level 2 heading called "Collaborative Programming"
+- [x ] Add a link to the collaborative programming reading, the link should say "What is pair programming?" 
+- [x ] Add a JavaScript code block that contains a jsdoc comment. Take one from a previous replit, use the one from the reading, or create a new one. 
+- [x ] Add a level 3 heading called "Pair Programming at Pursuit"
 - [ ] Make an ordered list of the reasons Pursuit wants you to pair program. This list should be bold.
 
 ---
 
 <!-- Start of Section 1 -->
+## Collaborative Programming
+
+[What is pair programming?](https://github.com/9-5-pursuit/unit-fundamentals/tree/main/collaborative-programming)
+
+```
+/**
+ * Displays an appropriate greeting to the guest.
+ * @param {string} timeOfDay - Should be either "morning", "afternoon", or "evening".
+ * @param {string} name - The guest's name.
+ * @returns {string} An appropriate greeting based on the time of day.
+ */
+
+``` 
+
+### Pair Programming at Pursuit 
+
+1. **Knowledge retention and sharing. It is inevitable that at some point another student will know more than you about a particular topic, and vice versa. Pairing gives you multiple opportunities to gain knowledge from other Fellows, or share that knowledge.**
+
+2. **Focus. When you're working with another person, it's difficult to get sidetracked. Working with other Fellows will help both of you stay on task so that you can efficiently complete your assignments.**
+
+3. **Expediency. When you're working with a pair, it's less likely that you will get stuck on frustrating problems like syntax errors. This is because you will have someone else looking on who will be able to spot your small mistakes. Instead, you'll get stuck on the larger, more difficult problems. And that's good! You want to spend your time working through misunderstandings, not spellchecking your variables.**
+
+4. **Community. The students you work with could be your future coworkers, so it's important to have many chances to work with them. While pairing, you'll be developing your interpersonal and teamwork skills which are critical for your future roles.**
+
 
 <!-- End of Section 1 -->
 
