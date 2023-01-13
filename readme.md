@@ -21,7 +21,7 @@ Check off each step as you complete it and [refer back to the reading](https://d
 
 [What is pair programming?](https://github.com/9-5-pursuit/unit-fundamentals/tree/main/collaborative-programming)
 
-```
+```js
 /**
  * Displays an appropriate greeting to the guest.
  * @param {string} timeOfDay - Should be either "morning", "afternoon", or "evening".
@@ -93,11 +93,11 @@ pwd
 # List the files and folders in your current directory
 ls
 # Make a directory 
-mkdir [directoryname]
+mkdir [directory name]
 # Navigate to that directory
-cd [directoryname]
+cd [directory name]
 # Create a file within that directory 
-touch [filename]
+touch [file name]
 # Move up one directory
 cd ..
 # Open a directory in Visual Studio Code
@@ -117,16 +117,16 @@ open .
 ---
 
 #### Section 3 Instructions
-- [ ] Add a level 2 heading called "Git"
-- [ ] Add a link to the git presentation that we covered in class, the link should say "Git, what is it good for?" 
-- [ ] Create a bash code block showing how to do the following:
+- [x ] Add a level 2 heading called "Git"
+- [x ] Add a link to the git presentation that we covered in class, the link should say "Git, what is it good for?" 
+- [x ] Create a bash code block showing how to do the following:
     - Make a directory
     - Navigate to that directory
     - Initialize a Git Repo
     - Create a readme.md file
     - Check the status of the repo
     - Stage the readme.md file
-- [ ] Put together instructions, utilizing code blocks when necessary, describing the following steps:
+- [x ] Put together instructions, utilizing code blocks when necessary, describing the following steps:
     - Open the directory you created previously in Visual Studio Code
     - Update the readme.md file
     - Compare the differences between the staged and unstaged readme.md files
@@ -135,25 +135,62 @@ open .
 ---
 
 <!-- Start of Section 3 -->
+## Git
+
+[Git, what is it good for?](https://docs.google.com/presentation/d/1KSqHQw8DxaZTtGQn5VKjP_Ljv4H_zc2hfE1CEVH8M8o/edit#slide=id.g420132f636_0_109)
+
+```bash
+# Make a directory
+mkdir [directory name]
+# Navigate to that directory
+cd [directory name]
+# Initialize a Git Repo
+git init 
+# Create a readme.md file
+touch readme.md
+# Check the status of the repo
+git status
+# Stage the readme.md file
+git add readme.md
+
+```
+
+1. Open the directory you created previously in Visual Studio Code
+```
+open [directory name]
+```
+2. Update the readme.md file
+3. Compare the differences between the staged and unstaged readme.md files
+```
+git diff
+```
+4. Stage the changes to the readme.md file 
+```
+git add readme.md
+```
+5. Commit the changes
+```
+git commit -m "Changes were made, ready to save"
+```
 
 <!-- End of Section 3 -->
 
 ---
 
 #### Section 4 Instructions
-- [ ] Add a level 2 heading called "GitHub (YourGithubUsername)"
-- [ ] Add a link to the GitHub reading, the link should say "GitHub, Let's build from here"
-- [ ] Create a level 3 heading called "Connecting Local to Remote"
-- [ ] Create a level 4 heading called "Local vs. Remote"
-- [ ] Describe, in your own words, what the difference between a local repo and remote repo is. 
-- [ ] Create a level 4 heading called "Getting ready on your local machine"
-- [ ] Copy the above section from the GitHub reading and highlight the code snippets where necessary.
-- [ ] Create a level 4 heading called "Creating a new repository"
-- [ ] Create a list detailing how to create a repository on GitHub (use the GitHub reading)
-- [ ] Create a level 3 heading called "Push your code"
-- [ ] Copy the "Push Your Code" section from the GitHub reading and format it the same way.
-- [ ] Create a level 3 heading called "Collaborating with GitHub"
-- [ ] Create a step by step task list for the collaboration process. Include the following:
+- [x ] Add a level 2 heading called "GitHub (YourGithubUsername)"
+- [x ] Add a link to the GitHub reading, the link should say "GitHub, Let's build from here"
+- [x ] Create a level 3 heading called "Connecting Local to Remote"
+- [x ] Create a level 4 heading called "Local vs. Remote"
+- [x ] Describe, in your own words, what the difference between a local repo and remote repo is. 
+- [x ] Create a level 4 heading called "Getting ready on your local machine"
+- [x ] Copy the above section from the GitHub reading and highlight the code snippets where necessary.
+- [x ] Create a level 4 heading called "Creating a new repository"
+- [x ] Create a list detailing how to create a repository on GitHub (use the GitHub reading)
+- [x ] Create a level 3 heading called "Push your code"
+- [x ] Copy the "Push Your Code" section from the GitHub reading and format it the same way.
+- [x ] Create a level 3 heading called "Collaborating with GitHub"
+- [x ] Create a step by step task list for the collaboration process. Include the following:
     - Forking
     - Cloning
     - Making Changes
@@ -162,6 +199,64 @@ open .
 ---
 
 <!-- Start of Section 4 -->
+## GitHub OnyxMcQueen
+
+[GitHub, Let's build from here](https://github.com/9-5-pursuit/unit-fundamentals/tree/main/github)
+
+### Connecting Local to Remote
+#### **Local vs. Remote** 
+
+First things first, we need to be able to distinguish the differences between Local and Remote. To further expand on this idea we'll also bring in a new term called a **repository**. We can simply think of a repository as folder, now when we refer to a local environment what we are talking about is your computer, everything on your computer is local, so when you create a repository or a folder on your computer that is local. The term remote can best be thought of as something distant or away, it's not close. So a remote repository/folder is not on your computer, repositories on GitHub for example are remote because they are not on your computer but rather a website. 
+
+
+#### **Getting ready on your local machine**
+Before creating a remote repository on GitHub, you'll need a local repository with at least a single commit. That means you'll need to:
+
+* Create a new directory with at least one file.
+* Initialize that directory as a git repository with `git init`.
+* Stage and commit files, with `git add` and `git commit`.
+
+You can always check if your directory is a git repository and has a single commit by running `git log`.
+
+#### **Creating a new repository**
+1. You can create a new repository from the [GitHub.com](https://github.com/) homepage. Click the green New button to get the process started. 
+
+2. You should give your repository a name that is meaningful as opposed to the nonsense names GitHub typically suggests, like "curly-rotary-phone." It's also typical to give your repository the same name as the folder that contains your repository on your local machine. At the bottom of the screen, it gives you the option to initialize your repository with some files. You will have already initialized your repository on your local machine, so you do not need to check these boxes.
+
+3. After clicking the "Create repository" button, you will be brought to a new page that includes a number of code blocks.
+
+4. Because you should have already created a repository, you'll be following the instructions under the heading "...or push an existing repository from the command line."
+
+### Push your code
+
+There are three commands that are run to connect your local repository to your remote repository. Typically, you can copy and paste these commands directly into your terminal. However, it's important to generally understand what each command is doing.
+
+`git remote add origin <url>`
+
+When you run this command inside of your local git repository, this command connects your local repository with your remote repository.
+
+As you can see by reading the command, a new "remote" is added at the given URL. The name "origin" is just that -- a name for the remote. This name could be whatever you want, but you can just leave it as origin.
+
+`git branch -M main`
+
+This command sets the name of the main "branch" to be called main. You will learn more about branches later on. For now, know that the main branch is where your commit history will live. Your local repository also has a main branch -- these two branches will be connected.
+
+`git push -u origin main`
+
+The `git push` command moves all of the commits from your local repository to your remote repository. This is the command that gets the two synchronized.
+
+The `-u` flag sets the "upstream" default for this branch to always be the remote with a name of "origin" and the branch with the name of "main."
+
+Because of the `-u` flag, moving forward you can just write `git push` from your local `main` branch and git will know that you want to push to the `main` branch of the remote repository by the name of "origin".
+
+### Collaborating with Github 
+Below is a step by step task list on how the collaboration process works on GitHub.
+
+
+- [ ] Forking
+- [ ] Cloning 
+- [ ] Making Changes 
+- [ ] Pull Requests
 
 <!-- End of Section 4 -->
 
