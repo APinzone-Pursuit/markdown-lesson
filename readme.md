@@ -66,30 +66,28 @@ Check off each step as you complete it and [refer back to the reading](https://d
 * `pwd` - print working directory
 * `cd ..` - go to parent directory (aka up)
 * `cd [folder]` - go into folder
-* `~`- represents your home folder
+* `~` - represents your home folder
 * `ls` - list files and subfolders in current folder
 * `touch [filename]` - create a new file
 * `mkdir [directory name]` - make a new directory
 * `code [filename]` - open the VSCode editor
 ### Examples
 ```
-    - Check your current file path
-   pwd
-    /Users/devinlewis/Sites/markdown-practice
-    - List the files and folders in your current directory
+   <!-- Check your current file path  -->
+    pwd
+   <!-- List the files and folders in your current directory  -->
     ls
-    readme.md
-    - Make a directory
+   <!-- Make a directory  -->
     mkdir new-directory
-    - Navigate to that directory
+   <!-- Navigate to that directory  -->
     cd new-directory
-    - Create a file within that directory
+   <!-- Create a file within that directory  -->
     touch newtext.txt
-    - Move up one directory
+   <!-- Move up one directory  -->
     cd ..
-    - Open a directory in Visual Studio Code
+   <!-- Open a directory in Visual Studio Code  -->
     code .
-    - Open a directory in Finder
+   <!-- Open a directory in Finder  -->
     open .
 ```
 ### Tips
@@ -101,9 +99,9 @@ Check off each step as you complete it and [refer back to the reading](https://d
 ---
 
 #### Section 3 Instructions
-- [ ] Add a level 2 heading called "Git"
-- [ ] Add a link to the git presentation that we covered in class, the link should say "Git, what is it good for?" 
-- [ ] Create a bash code block showing how to do the following:
+- [x] Add a level 2 heading called "Git"
+- [x] Add a link to the git presentation that we covered in class, the link should say "Git, what is it good for?" 
+- [x] Create a bash code block showing how to do the following:
     - Make a directory
     - Navigate to that directory
     - Initialize a Git Repo
@@ -119,7 +117,27 @@ Check off each step as you complete it and [refer back to the reading](https://d
 ---
 
 <!-- Start of Section 3 -->
-
+## Git
+[Git, what is it good for?](https://docs.google.com/presentation/d/1KSqHQw8DxaZTtGQn5VKjP_Ljv4H_zc2hfE1CEVH8M8o/edit?usp=sharing)
+```
+    <!-- Make a directory -->
+    mkdir new-git-directory
+    <!-- Navigate to that directory -->
+    cd new-git-directory
+    <!-- Initialize a Git Repo -->
+    git init
+    <!-- Create a readme.md file -->
+    touch readme.md
+    <!-- Check the status of the repo -->
+    git status
+    <!-- Stage the readme.md file -->
+    git add readme.md
+```
+1. Open the directory you created previously in Visual Studio Code `cd new-get-directory`
+2. Update the readme.md file, this command will open the directory into visual studio where you can proceed to edit the readme.md file `code .`
+3. Compare the differences between the staged and unstaged readme.md files `git diff`
+4. Stage the changes to the readme.md file `git add readme.md`
+5. Commit the changes `git commmit -m "Updated readme.md"`
 <!-- End of Section 3 -->
 
 ---
