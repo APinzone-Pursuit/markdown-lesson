@@ -38,8 +38,8 @@ Check off each step as you complete it and [refer back to the reading](https://d
 - [x] Add a level 2 heading called "Intro to the Command Line"
 - [x] Add a link to the intro to command line reading, the link should say "What is the terminal?" 
 - [x] Add a level 3 heading called "Keywords"
-- [ ] Re-create the list of keywords from the intro to command line reading, making sure to mark all code keywords as the reading did.
-- [ ] Add a level 3 heading called "Examples"
+- [x] Re-create the list of keywords from the intro to command line reading, making sure to mark all code keywords as the reading did.
+- [x] Add a level 3 heading called "Examples"
 - [ ] Create a bash code block containing the following examples, each example should have a code comment above it describing what it's doing:
     - Check your current file path
     - List the files and folders in your current directory
@@ -71,6 +71,18 @@ Check off each step as you complete it and [refer back to the reading](https://d
 * `touch [filename]` - create a new file
 * `mkdir [directory name]` - make a new directory
 * `code [filename]` - open the VSCode editor
+### Examples
+```
+    - Check your current file path
+    - List the files and folders in your current directory
+    - Make a directory
+    - Navigate to that directory
+    - Create a file within that directory
+    - Move up one directory
+    - Open a directory in Visual Studio Code
+    - Open a directory in Finder
+- [ ] Add a level 3 heading called "Tips"
+```
 <!-- End of Section 2 -->
 
 ---
