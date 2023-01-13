@@ -26,10 +26,10 @@ Check off each step as you complete it and [refer back to the reading](https://d
  */
 ```
 ### Pair Programming at Pursuit
-**1. Keep track of changes made by other developers** 
-**2. Pair programming is very common in the workplace**
-**3. Ability to make changes and not have them "live" until approved"**
-**4. Ability to organize work done on a project**
+- **1. Keep track of changes made by other developers** 
+- **2. Pair programming is very common in the workplace**
+- **3. Ability to make changes and not have them "live" until approved"**
+- **4. Ability to organize work done on a project**
 <!-- End of Section 1 -->
 
 ---
