@@ -143,13 +143,13 @@ Check off each step as you complete it and [refer back to the reading](https://d
 ---
 
 #### Section 4 Instructions
-- [ ] Add a level 2 heading called "GitHub (YourGithubUsername)"
-- [ ] Add a link to the GitHub reading, the link should say "GitHub, Let's build from here"
-- [ ] Create a level 3 heading called "Connecting Local to Remote"
-- [ ] Create a level 4 heading called "Local vs. Remote"
-- [ ] Describe, in your own words, what the difference between a local repo and remote repo is. 
-- [ ] Create a level 4 heading called "Getting ready on your local machine"
-- [ ] Copy the above section from the GitHub reading and highlight the code snippets where necessary.
+- [x] Add a level 2 heading called "GitHub (YourGithubUsername)"
+- [x] Add a link to the GitHub reading, the link should say "GitHub, Let's build from here"
+- [x] Create a level 3 heading called "Connecting Local to Remote"
+- [x] Create a level 4 heading called "Local vs. Remote"
+- [x] Describe, in your own words, what the difference between a local repo and remote repo is. 
+- [x] Create a level 4 heading called "Getting ready on your local machine"
+- [x] Copy the above section from the GitHub reading and highlight the code snippets where necessary.
 - [ ] Create a level 4 heading called "Creating a new repository"
 - [ ] Create a list detailing how to create a repository on GitHub (use the GitHub reading)
 - [ ] Create a level 3 heading called "Push your code"
@@ -164,7 +164,21 @@ Check off each step as you complete it and [refer back to the reading](https://d
 ---
 
 <!-- Start of Section 4 -->
+## GitHub (devinjlewis)
+[GitHub, Let's build from here](https://github.com/9-5-pursuit/unit-fundamentals/tree/main/github)
+### Connecting Local to Remote
+#### Local vs. Remote
+A local repo is directory that is git initiated on your computer. A remote repo is a repo that is created on github.com.
+#### Getting ready on your local machine
+Before creating a remote repository on GitHub, you'll need a local repository with at least a single commit. That means you'll need to:
 
+* Create a new directory with at least one file.
+
+* Initialize that directory as a git repository with `git init`.
+
+* Stage and commit files, with `git add` and `git commit`.
+
+You can always check if your directory is a git repository and has a single commit by running `git log`.
 <!-- End of Section 4 -->
 
 ---
