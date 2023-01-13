@@ -16,6 +16,7 @@ Check off each step as you complete it and [refer back to the reading](https://d
 ---
 
 <!-- Start of Section 1 -->
+
 ## Collaborative Programming
 
 [What is pair programming?](https://github.com/9-5-pursuit/unit-fundamentals/tree/main/collaborative-programming)
@@ -46,12 +47,12 @@ Check off each step as you complete it and [refer back to the reading](https://d
 ---
 
 #### Section 2 Instructions
-- [ ] Add a level 2 heading called "Intro to the Command Line"
-- [ ] Add a link to the intro to command line reading, the link should say "What is the terminal?" 
-- [ ] Add a level 3 heading called "Keywords"
-- [ ] Re-create the list of keywords from the intro to command line reading, making sure to mark all code keywords as the reading did.
-- [ ] Add a level 3 heading called "Examples"
-- [ ] Create a bash code block containing the following examples, each example should have a code comment above it describing what it's doing:
+- [x ] Add a level 2 heading called "Intro to the Command Line"
+- [x ] Add a link to the intro to command line reading, the link should say "What is the terminal?" 
+- [x ] Add a level 3 heading called "Keywords"
+- [x ] Re-create the list of keywords from the intro to command line reading, making sure to mark all code keywords as the reading did.
+- [x ] Add a level 3 heading called "Examples"
+- [x ] Create a bash code block containing the following examples, each example should have a code comment above it describing what it's doing:
     - Check your current file path
     - List the files and folders in your current directory
     - Make a directory
@@ -60,11 +61,56 @@ Check off each step as you complete it and [refer back to the reading](https://d
     - Move up one directory
     - Open a directory in Visual Studio Code
     - Open a directory in Finder
-- [ ] Add a level 3 heading called "Tips"
+- [ x] Add a level 3 heading called "Tips"
 - [ ] Recreate the tips section from the intro to command line reading
 ---
 
 <!-- Start of Section 2 -->
+## Intro to the Command Line 
+
+[What is the terminal?](https://github.com/9-5-pursuit/unit-fundamentals/tree/main/intro-to-command-line)
+
+### Keywords
+- Operating System (OS)
+- Graphical User Interface (GUI)
+- Command Line Interface (CLI)
+- Terminal
+- Shell
+- Folder = Directory 
+- `pwd` - working directory
+- `cd ..` - go to parent directory (aka up)
+- `cd [folder]` - go into folder
+- `~` - represents your home folder
+- `ls` - lists all files and subfolders in current folder
+- `touch [filename]` - create a new file
+- `mkdir [directory name]` - make a new directory
+- `code [filename]` - open the VSCode editor
+
+### Examples 
+```bash
+# Check your current file path
+pwd 
+# List the files and folders in your current directory
+ls
+# Make a directory 
+mkdir [directoryname]
+# Navigate to that directory
+cd [directoryname]
+# Create a file within that directory 
+touch [filename]
+# Move up one directory
+cd ..
+# Open a directory in Visual Studio Code
+code .
+# Open a directory in Finder
+open .
+
+```
+### Tips
+
+* Use tab to autocomplete. for example, if the current folder has subfolders titled `games`, `photos` and `photography`, typing `pho` and pressing the tab key will result in displaying `photo` and `photography`. If we then type the letter `g` to get `photog`,and press the tab key - the command will be autocomplete to `photography`.
+
+* You can also use the up and down arrow keys to cycle through all the commands you've typed.
 
 <!-- End of Section 2 -->
 
