@@ -277,7 +277,8 @@ Below is a step by step task list on how the collaboration process works on GitH
 <!-- Start of Section 5 -->
 ## My time at Pursuit 
 
-![Dog Plush in Earthquake](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F831547518674481320%2F&psig=AOvVaw3NS69Nj8QTcW1gs0puVkLl&ust=1673720113314000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCJi_j7-TxfwCFQAAAAAdAAAAABAK)
+![Dog Plush in Earthquake](https://i.kym-cdn.com/photos/images/original/000/985/688/015.gif)
+
 
 1. A weakness that I need to refine would be problem solving and tackling problems at various angles, reading through the problems and fully understanding the context.
 
