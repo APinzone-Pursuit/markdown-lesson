@@ -54,9 +54,33 @@ Check off each step as you complete it and [refer back to the reading](https://d
 ```
 // Check your current file path
 pwd
+
 // List the files and folders in your current directory
 ls
-// 
+
+// Make a direcctory
+mkdir <name of directory>
+
+// Navigate to that directory
+cd <name of that directory>
+
+// create a file within that directory
+cd <name of that directory>
+touch <name of file>
+
+// move up one directory (parent)
+..
+
+// open a directory with visual code studio
+cd <directory>
+code .
+
+// open a directory in finder
+cd <directory>
+open .
+
+
+
 ```
 <!-- End of Section 2 -->
 
