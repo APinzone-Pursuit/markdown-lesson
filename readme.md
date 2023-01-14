@@ -116,7 +116,37 @@ open .
 <!-- Start of Section 3 -->
 ## Git
 [Git, what is it good for?](https://docs.google.com/presentation/d/1KSqHQw8DxaZTtGQn5VKjP_Ljv4H_zc2hfE1CEVH8M8o/edit#slide=id.g420132f636_0_109)
-f
+```
+cd ~
+mkdir new-directory
+cd new-directory
+git init
+touch readme.md
+git status
+git add readme.md
+```
+**Now we will need to open the directory that we previously created in Visual Studio Code.**
+- To do so we will need to open up the directory first.
+```
+cd~
+cd new-directory
+code .
+```
+**Now edit the readme.md file in Visual Studio Code**
+- It doesn't matter what you add, just make a change and save it.
+**Compare the differences between the staged and unstaged readme.md files**
+```
+git diff readme.md
+```
+**Stage the changes to the readme.md file**
+```
+git add readme.md
+```
+**Commit the changes**
+```
+git commit -m "Your message"
+```
+
 
 <!-- End of Section 3 -->
 
