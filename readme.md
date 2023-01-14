@@ -51,37 +51,33 @@ Check off each step as you complete it and [refer back to the reading](https://d
 ## Intro to the Command Line
 [What is the terminal?](https://github.com/9-5-pursuit/unit-fundamentals/tree/main/intro-to-command-line)
 ### Examples
-```
-// Check your current file path
-pwd
+<sub>// Check your current file path</sub>
+**pwd**
 
-// List the files and folders in your current directory
-ls
+<sub>// List the files and folders in your current directory</sub>
+**ls**
 
-// Make a direcctory
-mkdir <name of directory>
+<sub>// Make a direcctory</sub>
+**mkdir <name of directory>**
 
-// Navigate to that directory
-cd <name of that directory>
+<sub>// Navigate to that directory
+**cd <name of that directory></sub>**
 
-// create a file within that directory
-cd <name of that directory>
-touch <name of file>
+<sub>// create a file within that directory
+cd <name of that directory></sub>
+**touch <name of file>**
 
-// move up one directory (parent)
-..
+<sub>// move up one directory (parent)</sub>
+**..**
 
-// open a directory with visual code studio
+<sub>// open a directory with visual code studio</sub>
 cd <directory>
-code .
+**code .**
 
-// open a directory in finder
+<sub>// open a directory in finder</sub>
 cd <directory>
-open .
+**open .**
 
-
-
-```
 <!-- End of Section 2 -->
 
 ---
