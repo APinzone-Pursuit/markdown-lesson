@@ -16,6 +16,13 @@ Check off each step as you complete it and [refer back to the reading](https://d
 ---
 
 <!-- Start of Section 1 -->
+## Collaborative Programming
+[What is pair programming?](https://github.com/9-5-pursuit/unit-fundamentals/tree/main/collaborative-programming)
+### Pair Programming at Pursuit
+**1.** **Knowledge retention and sharing. It is inevitable that at some point another student will know more than you about a particular topic, and vice versa. Pairing gives you multiple opportunities to gain knowledge from other Fellows, or share that knowledge.**
+**2.** **Focus. When you're working with another person, it's difficult to get sidetracked. Working with other Fellows will help both of you stay on task so that you can efficiently complete your assignments.**
+**3.** **Expediency. When you're working with a pair, it's less likely that you will get stuck on frustrating problems like syntax errors. This is because you will have someone else looking on who will be able to spot your small mistakes. Instead, you'll get stuck on the larger, more difficult problems. And that's good! You want to spend your time working through misunderstandings, not spellchecking your variables.**
+**4.** **Community. The students you work with could be your future coworkers, so it's important to have many chances to work with them. While pairing, you'll be developing your interpersonal and teamwork skills which are critical for your future roles.**
 
 <!-- End of Section 1 -->
 
@@ -30,7 +37,7 @@ Check off each step as you complete it and [refer back to the reading](https://d
 - [ ] Create a bash code block containing the following examples, each example should have a code comment above it describing what it's doing:
     - Check your current file path
     - List the files and folders in your current directory
-    - Make a directory
+    - Make a direcctory
     - Navigate to that directory
     - Create a file within that directory
     - Move up one directory
@@ -41,7 +48,16 @@ Check off each step as you complete it and [refer back to the reading](https://d
 ---
 
 <!-- Start of Section 2 -->
-
+## Intro to the Command Line
+[What is the terminal?](https://github.com/9-5-pursuit/unit-fundamentals/tree/main/intro-to-command-line)
+### Examples
+```
+// Check your current file path
+pwd
+// List the files and folders in your current directory
+ls
+// 
+```
 <!-- End of Section 2 -->
 
 ---
