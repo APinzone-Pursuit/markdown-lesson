@@ -51,32 +51,45 @@ Check off each step as you complete it and [refer back to the reading](https://d
 ## Intro to the Command Line
 [What is the terminal?](https://github.com/9-5-pursuit/unit-fundamentals/tree/main/intro-to-command-line)
 ### Examples
-<sub>// Check your current file path</sub>
-**pwd**
+<sub>Check your current file path:</sub>
+```
+pwd
+```
 
-<sub>// List the files and folders in your current directory</sub>
-**ls**
+<sub>List the files and folders in your current directory</sub>
+```
+ls
+```
+<sub>Make a direcctory</sub>
+```
+mkdir directory-name
+```
+<sub>Navigate to that directory</sub>
+```
+cd directory-name
+```
 
-<sub>// Make a direcctory</sub>
-**mkdir <name of directory>**
+<sub>Create a file within that directory</sub>
+```
+cd directory-name
+touch filename.md
+```
 
-<sub>// Navigate to that directory
-**cd <name of that directory></sub>**
+<sub>Move up one directory level</sub>
+```
+..
+```
 
-<sub>// create a file within that directory
-cd <name of that directory></sub>
-**touch <name of file>**
-
-<sub>// move up one directory (parent)</sub>
-**..**
-
-<sub>// open a directory with visual code studio</sub>
-cd <directory>
-**code .**
-
-<sub>// open a directory in finder</sub>
-cd <directory>
-**open .**
+<sub>Open a directory with visual code studio</sub>
+```
+cd directory-name
+code .
+```
+<sub>Open a directory in finder</sub>
+```
+cd directory-name
+open .
+```
 
 <!-- End of Section 2 -->
 
@@ -101,6 +114,9 @@ cd <directory>
 ---
 
 <!-- Start of Section 3 -->
+## Git
+[Git, what is it good for?](https://docs.google.com/presentation/d/1KSqHQw8DxaZTtGQn5VKjP_Ljv4H_zc2hfE1CEVH8M8o/edit#slide=id.g420132f636_0_109)
+f
 
 <!-- End of Section 3 -->
 
