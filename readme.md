@@ -55,7 +55,6 @@ Check off each step as you complete it and [refer back to the reading](https://d
 ```
 pwd
 ```
-
 <sub>List the files and folders in your current directory</sub>
 ```
 ls
@@ -68,7 +67,6 @@ mkdir directory-name
 ```
 cd directory-name
 ```
-
 <sub>Create a file within that directory</sub>
 ```
 cd directory-name
@@ -174,6 +172,59 @@ git commit -m "Your message"
 ---
 
 <!-- Start of Section 4 -->
+## GitHub (YourGithubUsername)
+[GitHub, Let's build from here](https://github.com/9-5-pursuit/unit-fundamentals/blob/main/github/reading/readme.md)
+### Connecting Local to Remote
+#### Local vs. Remote
+Local repos exist on the individual computer, remote repos are hosted on a server and are either publically or privately accessed by the allowed individuals.
+#### Getting ready on your local machine
+Before creating a remote repository on GitHub, you'll need a local repository with at least a single commit. That means you'll need to:
+- Create a new directory with at least one file.
+- Initialize that directory as a git repository with `git init`.
+- Stage and commit files, with `git add` and `git commit`.
+
+You can always check if your directory is a git repository and has a single commit by running `git log`.
+#### Creating a new repository
+You can create a new repository from the GitHub.com homepage. Click the green New button to get the process started.
+![Alt text](https://github.com/9-5-pursuit/unit-fundamentals/blob/main/github/assets/reading/new-repository.png)
+Alternatively, you can click the "+" button in the top-right corner of any GitHub page. You will then be brought to a page where you can name your repository.
+![Alt text](https://github.com/9-5-pursuit/unit-fundamentals/blob/main/github/assets/reading/new-repo-settings.png)
+You should give your repository a name that is meaningful as opposed to the nonsense names GitHub typically suggests, like "curly-rotary-phone." It's also typical to give your repository the same name as the folder that contains your repository on your local machine.
+At the bottom of the screen, it gives you the option to initialize your repository with some files. You will have already initialized your repository on your local machine, so you do not need to check these boxes.
+After clicking the "Create repository" button, you will be brought to a new page that includes a number of code blocks.
+![Alt text](https://github.com/9-5-pursuit/unit-fundamentals/blob/main/github/assets/reading/repository-setup.png)
+Because you should have already created a repository, you'll be following the instructions under the heading "...or push an existing repository from the command line."
+### Push your code
+There are three commands that are run to connect your local repository to your remote repository. Typically, you can copy and paste these commands directly into your terminal. However, it's important to generally understand what each command is doing.
+
+##### `git remote add origin <url`
+
+When you run this command inside of your local git repository, this command connects your local repository with your remote repository.
+
+As you can see by reading the command, a new "remote" is added at the given URL. The name "origin" is just that -- a name for the remote. This name *could* be whatever you want, but you can just leave it as origin.
+
+##### `git branch -M main`
+
+This command sets the name of the main "branch" to be called `main`. You will learn more about branches later on. For now, know that the `main` branch is where your commit history will live. Your local repository also has a `main` branch -- these two branches will be connected.
+
+###### `git push -u origin main`
+
+The `git push` command moves all of the commits from your local repository to your remote repository. This is the command that gets the two synchronized.
+
+The `-u` flag sets the "upstream" default for this branch to always be the remote with a name of "origin" and the branch with the name of "main."
+
+Because of the `-u` flag, moving forward you can just write `git push` from your local main branch and git will know that you want to push to the `main` branch of the remote repository by the name of "origin".
+
+### Collaborating with GitHub
+##### Forking 
+You can fork a repo by hitting the fork button in the top right.
+
+To clone a repo copy the url that's present after hitting the green code button. Now make a directory and cd to that directory. Within that directory use `git clone <url>` to clone your local repo to the cloned remote repo.
+
+Stage your changes to be commited by using `git add <fileame.md>` and then commit them with an appropriate title by using 
+`git commit -m "message"` 
+
+Create a pull request to request a merge of your forked commited version of a repo and the remote repo it was copied from by selecting create pull request on the repo page. it will ask if you want to compare two versions of a repo and if so which ones. select your two and hit compare.
 
 <!-- End of Section 4 -->
 
