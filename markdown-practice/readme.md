@@ -16,13 +16,23 @@ Check off each step as you complete it and [refer back to the reading](https://d
 ---
 
 <!-- Start of Section 1 -->
-##  Collaborative Programming
+## Collaborative Programming 
 
-https://en.wikipedia.org/wiki/Pair_programming
+[What is pair programming?](https://github.com/9-5-pursuit/unit-fundamentals/tree/main/collaborative-programming)
 
 /** This is a description of the add function. */
 
 ### Pair Programming at Pursuit
+
+1.  Knowledge retention and sharing. It is inevitable that at some point another student will know more than you about a particular topic, and vice versa.
+
+2.  Knowledge retention and sharing. It is inevitable that at some point another student will know more than you about a particular topic, and vice versa.
+
+3. Expediency. When you're working with a pair, it's less likely that you will get stuck on frustrating problems like syntax errors.
+
+4. Community. The students you work with could be your future coworkers, so it's important to have many chances to work with them.
+
+
 <!-- End of Section 1 -->
 
 ---
@@ -47,6 +57,9 @@ https://en.wikipedia.org/wiki/Pair_programming
 ---
 
 <!-- Start of Section 2 -->
+## Intro to the Command Line.
+
+[What is the terminal?]()
 
 <!-- End of Section 2 -->
 
